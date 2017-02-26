@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Invitation</string>
+    <string name="title_text">Lalbagh Botanical Garden</string>
+    <string name="location_text">Mavalli, Bengaluru, Karnataka 560004</string>
+    <string name="access_time_text">6AM - 6PM, everyday</string>
+    <string name="website_text">http://www.horticulture.kar.nic.in/lalbagh.htm#The%20Garden</string>
+    <string name="visit_time_text">People typically spend nearly two hours here</string>
+    <string name="place_description">
+        "Lalbagh or Lalbagh Botanical Gardens, meaning The Red Garden in English, is a well known botanical garden in southern Bengaluru, India. The main attraction is the Glass House that is modeled to resemble London's Crystal Palace, and this is where the major flower decorations are done for the occasion of Republic Day and Independence Day of India. It also hosts Mango festival once in every year. On the other side, Lalbagh is also famous for Pokémon goers as this is a major Pokéfarm too with lots of Pokéstops, and a Pokégym centered at the Glass House."
+    </string>
+    <string name="invite_button">Invite Friends</string>
+</resources>

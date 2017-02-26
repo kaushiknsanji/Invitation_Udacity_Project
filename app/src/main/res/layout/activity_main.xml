@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.kaushiknsanji.invitation.MainActivity">
+
+        <ImageView
+            android:id="@+id/lalbagh_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/lalbagh_night_small"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lalbagh_image"
+            android:background="@color/colorPrimary"
+            android:fontFamily="serif"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/title_text"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"/>
+
+        <TableLayout
+            android:id="@+id/location_details_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_text"
+            android:layout_margin="16dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/location_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_place_black"/>
+
+                <TextView
+                    android:id="@+id/location_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="sans-serif"
+                    android:paddingLeft="10dp"
+                    android:text="@string/location_text" />
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/access_time_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_access_time"/>
+
+                <TextView
+                    android:id="@+id/access_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/access_time_text"/>
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/public_black_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_public_black"/>
+
+                <TextView
+                    android:id="@+id/website_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:autoLink="web"
+                    android:paddingLeft="10dp"
+                    android:text="@string/website_text"/>
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/visit_time_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:src="@drawable/ic_stop_watch"/>
+
+                <TextView
+                    android:id="@+id/visit_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="@string/visit_time_text"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <View
+            android:id="@+id/info_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/location_details_table"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_divider"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/place_description"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/invite_button"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+    </RelativeLayout>
+</ScrollView>
