@@ -9,7 +9,7 @@ import android.view.View;
 /**
  * Main Activity of the Invitation App
  *
- * @author <a href="mailto:kaushiknsanji@gmail.com">Kaushik N Sanji</a>
+ * @author Kaushik N Sanji
  */
 public class MainActivity extends Activity {
 
@@ -21,8 +21,7 @@ public class MainActivity extends Activity {
 
     /**
      * Method called when the User clicks on the address location
-     * @param view
-     *          <br/> - Text View Resource id 'location_text'
+     * @param view Text View Resource id 'location_text'
      */
     public void onClickOfLocation(View view){
         //Dispatch an Intent to show the location on the Map
