@@ -1,15 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2017 Kaushik N. Sanji
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.example.kaushiknsanji.invitation.MainActivity">
 
     <RelativeLayout
-        xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context="com.example.kaushiknsanji.invitation.MainActivity">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/lalbagh_image"
@@ -26,9 +41,10 @@
             android:layout_below="@id/lalbagh_image"
             android:background="@color/colorPrimary"
             app:fontFamily="serif"
-            android:paddingBottom="10dp"
-            android:paddingLeft="20dp"
-            android:paddingTop="10dp"
+            android:paddingStart="@dimen/title_text_padding_left"
+            android:paddingLeft="@dimen/title_text_padding_left"
+            android:paddingTop="@dimen/title_text_vertical_padding"
+            android:paddingBottom="@dimen/title_text_vertical_padding"
             android:text="@string/title_text"
             android:textColor="@android:color/background_light"
             android:textSize="@dimen/title_text_size"
@@ -39,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/title_text"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/location_details_table_margin"
             android:stretchColumns="1">
 
             <TableRow>
@@ -49,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="0"
                     android:background="@android:color/transparent"
-                    android:padding="2dp"
+                    android:padding="@dimen/table_details_column_icon_padding"
                     android:src="@drawable/ic_place_black"/>
 
                 <TextView
@@ -59,7 +75,8 @@
                     android:layout_column="1"
                     android:layout_gravity="center_vertical"
                     app:fontFamily="sans-serif"
-                    android:paddingLeft="10dp"
+                    android:paddingStart="@dimen/table_details_column_text_padding_left"
+                    android:paddingLeft="@dimen/table_details_column_text_padding_left"
                     android:text="@string/location_text"
                     android:onClick="onClickOfLocation"/>
             </TableRow>
@@ -71,7 +88,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="0"
                     android:background="@android:color/transparent"
-                    android:padding="2dp"
+                    android:padding="@dimen/table_details_column_icon_padding"
                     android:src="@drawable/ic_access_time"/>
 
                 <TextView
@@ -80,7 +97,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="1"
                     android:layout_gravity="center_vertical"
-                    android:paddingLeft="10dp"
+                    android:paddingStart="@dimen/table_details_column_text_padding_left"
+                    android:paddingLeft="@dimen/table_details_column_text_padding_left"
                     android:text="@string/access_time_text"/>
             </TableRow>
 
@@ -91,7 +109,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="0"
                     android:background="@android:color/transparent"
-                    android:padding="2dp"
+                    android:padding="@dimen/table_details_column_icon_padding"
                     android:src="@drawable/ic_public_black"/>
 
                 <TextView
@@ -101,7 +119,8 @@
                     android:layout_column="1"
                     android:layout_gravity="center_vertical"
                     android:autoLink="web"
-                    android:paddingLeft="10dp"
+                    android:paddingStart="@dimen/table_details_column_text_padding_left"
+                    android:paddingLeft="@dimen/table_details_column_text_padding_left"
                     android:text="@string/website_text"/>
             </TableRow>
 
@@ -112,7 +131,7 @@
                     android:layout_height="wrap_content"
                     android:layout_column="0"
                     android:background="@android:color/transparent"
-                    android:padding="2dp"
+                    android:padding="@dimen/table_details_column_icon_padding"
                     android:src="@drawable/ic_stop_watch"/>
 
                 <TextView
@@ -121,7 +140,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="1"
                     android:layout_gravity="center_vertical"
-                    android:paddingLeft="10dp"
+                    android:paddingStart="@dimen/table_details_column_text_padding_left"
+                    android:paddingLeft="@dimen/table_details_column_text_padding_left"
                     android:text="@string/visit_time_text"/>
             </TableRow>
 
@@ -132,9 +152,11 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@id/location_details_table"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
+            android:layout_marginStart="@dimen/info_divider_horizontal_margin"
+            android:layout_marginLeft="@dimen/info_divider_horizontal_margin"
+            android:layout_marginEnd="@dimen/info_divider_horizontal_margin"
+            android:layout_marginRight="@dimen/info_divider_horizontal_margin"
+            android:layout_marginBottom="@dimen/info_divider_margin_bottom"
             android:background="@android:color/darker_gray"/>
 
         <TextView
@@ -142,25 +164,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/info_divider"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/description_text_margin_bottom"
             android:lineSpacingMultiplier="1.2"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:paddingStart="@dimen/description_text_horizontal_padding"
+            android:paddingLeft="@dimen/description_text_horizontal_padding"
+            android:paddingEnd="@dimen/description_text_horizontal_padding"
+            android:paddingRight="@dimen/description_text_horizontal_padding"
             android:text="@string/place_description"/>
 
         <Button
+            android:id="@+id/button_invite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/description_text"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/button_invite_margin_bottom"
             android:background="@color/colorAccent"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
+            android:paddingStart="@dimen/button_invite_horizontal_padding"
+            android:paddingLeft="@dimen/button_invite_horizontal_padding"
+            android:paddingEnd="@dimen/button_invite_horizontal_padding"
+            android:paddingRight="@dimen/button_invite_horizontal_padding"
             android:text="@string/invite_button"
             android:textAllCaps="true"
             android:textColor="@android:color/white"
-            android:textSize="16sp"/>
+            android:textSize="@dimen/button_invite_text_size" />
 
     </RelativeLayout>
 </ScrollView>

@@ -1,6 +1,35 @@
+<!--
+  ~ Copyright 2017 Kaushik N. Sanji
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="title_text_size">20sp</dimen>
+    <dimen name="title_text_vertical_padding">10dp</dimen>
+    <dimen name="title_text_padding_left">20dp</dimen>
+    <dimen name="location_details_table_margin">16dp</dimen>
+    <dimen name="table_details_column_icon_padding">2dp</dimen>
+    <dimen name="table_details_column_text_padding_left">10dp</dimen>
+    <dimen name="info_divider_horizontal_margin">12dp</dimen>
+    <dimen name="info_divider_margin_bottom">16dp</dimen>
+    <dimen name="description_text_margin_bottom">16dp</dimen>
+    <dimen name="description_text_horizontal_padding">20dp</dimen>
+    <dimen name="button_invite_margin_bottom">16dp</dimen>
+    <dimen name="button_invite_horizontal_padding">16dp</dimen>
+    <dimen name="button_invite_text_size">16sp</dimen>
+
 </resources>
