@@ -34,6 +34,16 @@ As this is a Single Screen App, it contains only one Activity, i.e., [MainActivi
 
 ---
 
+## Branches in this Repository
+
+* **[master](https://github.com/kaushiknsanji/Invitation_Udacity_Project/tree/master)**
+	* Contains the code submitted for review, along with review suggestions incorporated.
+* **[release_v1.0](https://github.com/kaushiknsanji/Invitation_Udacity_Project/tree/release_v1.0)**
+	* Contains the code updated to follow the recommended Android guidelines.
+	* Other minor changes to prepare the app for local release. 
+
+---
+
 ## Review from the Reviewer (Udacity)
 
 ![Review_Single_Screen_App](https://user-images.githubusercontent.com/26028981/65308168-19c6ef80-dba7-11e9-9d37-0d6c4d878d86.PNG)
