@@ -37,3 +37,23 @@ As this is a Single Screen App, it contains only one Activity, i.e., [MainActivi
 ## Review from the Reviewer (Udacity)
 
 ![Review_Single_Screen_App](https://user-images.githubusercontent.com/26028981/65308168-19c6ef80-dba7-11e9-9d37-0d6c4d878d86.PNG)
+
+---
+
+## License
+
+```
+Copyright 2017 Kaushik N. Sanji
+
+Licensed under the Apache License, Version 2.0 (the "License"); 
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+   
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
