@@ -44,6 +44,12 @@ As this is a Single Screen App, it contains only one Activity, i.e., [MainActivi
 
 ---
 
+## Icon credits
+
+App Icon is from [Icons8](https://icons8.com).
+
+---
+
 ## Review from the Reviewer (Udacity)
 
 ![Review_Single_Screen_App](https://user-images.githubusercontent.com/26028981/65308168-19c6ef80-dba7-11e9-9d37-0d6c4d878d86.PNG)
