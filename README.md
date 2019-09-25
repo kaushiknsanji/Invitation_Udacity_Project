@@ -1,7 +1,7 @@
 # Invitation - Single Screen App
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Invitation_Udacity_Project)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Invitation_Udacity_Project/total) ![GitHub search hit counter](https://img.shields.io/github/search/kaushiknsanji/Invitation_Udacity_Project/Single%20Screen%20App) ![Minimum API level](https://img.shields.io/badge/API-15-yellow)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Invitation_Udacity_Project/total) ![GitHub search hit counter](https://img.shields.io/github/search/kaushiknsanji/Invitation_Udacity_Project/Single%20Screen%20App) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 This App has been developed as part of the **Udacity Android Basics Nanodegree Course** for the Exercise Project **"Single Screen App"**. **Invitation** is the theme chosen for the App.
 
